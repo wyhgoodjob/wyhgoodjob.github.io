@@ -23,8 +23,9 @@ before_install:
 
 # Start: Build Lifecycle
 install:
-  - npm install hexo-cli -g
   - npm install
+  - npm install hexo-cli -g
+  - npm install hexo-generator-searchdb --save
 
 # 执行清缓存，生成网页操作
 script:
