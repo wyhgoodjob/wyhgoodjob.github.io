@@ -100,5 +100,5 @@ theme: next
 deploy:
   type: git
   repo: 
-    github: https://github.com/wyhgoodjob/wyhgoodjob.github.io.git
+    github: https://github_token@github.com/wyhgoodjob/wyhgoodjob.github.io.git
   branch: master
